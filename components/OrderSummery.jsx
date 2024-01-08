@@ -9,7 +9,7 @@ const OrderSummery = ({ cartdata, totalprice }) => {
         </div>
         <div className="max-h-[20vh] overflow-y-scroll">
           {cartdata.map((product) => (
-            <div className="flex justify-around ">
+            <div className="flex justify-around " key={product?.id}>
               <div>{product?.title.split("", 15)}...</div>
               <div>{product?.price}</div>
             </div>
