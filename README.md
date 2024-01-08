@@ -33,20 +33,21 @@ This is a sample Next.js application for an e-commerce website with features suc
 
 1. Clone the repository:
 
-````bash
+```bash
 git clone https://github.com/therohit25/nextjs_ecommerce.git
 cd nextjs_ecommerce
-
+```
 
 2. Install dependencies:
 
 ```bash
 npm install
+```
 
 3. Start Development Server:
 
 ```bash
 npm run dev
+```
 
 Visit http://localhost:3000 in your browser to see the application.
-````
