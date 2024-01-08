@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js E-Commerce App
+
+This is a sample Next.js application for an e-commerce website with features such as product listing, shopping cart, and a simple checkout simulation.
+
+## Features
+
+- Display a list of products with name, image, price, and an "Add to Cart" button.
+- Implement pagination or infinite scrolling to load more products.
+- Fetch product data from the [Fake Store API](https://fakestoreapi.com/docs).
+- Handle loading states and errors gracefully.
+- Allow users to add and remove products from the cart.
+- Display a cart summary with total items and total price.
+- Implement a checkout button leading to a simple checkout page.
+- Mock checkout form asking for name, address, and payment details (no real payment processing).
+- On submission, display a confirmation message with the order summary.
+- Design a clean and responsive layout using HTML/CSS with Tailwind CSS.
+
+## Technologies Used
+
+- Next.js
+- Tailwind CSS
+- Context API for state management
+- Node.js 14
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 14 or later installed
+- Git
+
+### Installation
+
+1. Clone the repository:
+
+````bash
+git clone https://github.com/therohit25/nextjs_ecommerce.git
+cd nextjs_ecommerce
+
+
+2. Install dependencies:
+
+```bash
+npm install
+
+3. Start Development Server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Visit http://localhost:3000 in your browser to see the application.
+````
